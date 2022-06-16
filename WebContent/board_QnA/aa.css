@@ -1,0 +1,99 @@
+BODY {
+	FONT-SIZE: 11pt; 
+	COLOR: black; 
+	LINE-HEIGHT: 160%; 
+	BACKGROUND-COLOR:#FFFFFF;
+}
+h2 {
+	text-align: center;
+}
+TABLE {
+	margin:auto;
+	BACKGROUND-COLOR: #FFFFFF;
+	border: none;
+}
+TABLE.wid {
+	width: 70%;
+}
+TD {
+	FONT-SIZE: 11pt; 
+	COLOR: black; 
+	LINE-HEIGHT: 160%;
+}
+TR {
+	LINE-HEIGHT: 39;
+}
+SELECT {
+	FONT-SIZE: 11pt; 
+	COLOR: black; 
+	LINE-HEIGHT: 160%;
+}
+DIV {
+	FONT-SIZE: 11pt; COLOR: black; 
+	LINE-HEIGHT: 160%;
+}
+FORM {
+	FONT-SIZE: 11pt; 
+	COLOR: black; 
+	LINE-HEIGHT: 160%; 
+}
+TEXTAREA {
+ /*BORDER-RIGHT: 1px solid #999999; 
+ BORDER-TOP: 1px solid #999999;
+ BORDER-BOTTOM: 1px solid #999999;
+ BORDER-LEFT: 1px solid #999999 ;
+ */
+ BORDER:1px solid #999999; /*right, top , left , bottom 모두 설정 */
+ 
+ FONT-SIZE: 11pt;
+ COLOR: BLACK;
+ 
+ BACKGROUND-COLOR: ivory
+}
+INPUT {
+BORDER-RIGHT: 1px solid #999999;
+BORDER-TOP: 1px solid #999999;
+BORDER-LEFT: 1px solid #999999;
+BORDER-BOTTOM: 1px solid #999999; 
+
+FONT-SIZE: 11pt;
+COLOR: BLACK; 
+
+HEIGHT: 25px; 
+BACKGROUND-COLOR: white;
+}
+ 
+A:link {text-decoration: none; color: #696969;}
+A:hover{text-decoration: none; color: #330066;}
+A:visited {text-decoration: none; color: #330066;}
+
+ul {
+	font-size: 12;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #f1f1f1;
+}
+
+li a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+li a:hover:not (.active ) {
+	background-color: #555;
+	color: white;
+}
+
+col {
+	border-top: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5;
+	padding: 5px 0; text-align: center; background: #faf9fa; height: 10%;
+}

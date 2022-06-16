@@ -1,0 +1,75 @@
+01_문서.txt
+
+d:\_mvc_project
+	eclipse 복사 -- 플러그인때문에
+	mvcwork 폴더 생성
+
+eclipse.exe 실행
+워크스페이스
+d:\_mvc_project\mvcwork 찾아준다
+
+tomcat설정 
+servers-new-Apache Tomcat v8.0-browse로 tomcat 지정
+
+Window메뉴-preference-General-workspace-UTF_8
+
+Web
+  CSS
+  HTML
+  JSP   모두 UTF-8 로 설정
+
+새프로젝트: 이름
+dynamic Web
+next next web.xml체크 
+
+===========================================
+MVC 프레임워크 세팅
+===========================================
+(복사기준 10_MVC)
+세팅 
+1. lib/*.jar 복사
+2. META-INF/context.xml복사 , web.xml에 내용넣기
+3. WEB-INF/command.properties 복사
+4. src/command 복사 
+5. controller 패키지 만들고
+   ControllerDispatcher.java  template.jsp사용 
+
+6. web.xml servlet 내용 복사
+
+7.
+MemberDTO.java
+MemberDAO.java 복사 (05_mem_board꺼)
+
+8.
+WebContent
+template 폴더
+  template.jsp
+header 폴더
+  header.jsp(10_MVC 복사)
+module 폴더
+  bottom.jsp
+  top.jsp
+  left.jsp
+member 폴더
+  main.jsp
+  confirmID.jsp 컨트롤을 거치지 않음
+  inputForm.jsp
+  inputPro.jsp
+  loginForm.jsp
+  loginPro.jsp
+  logOut.jsp
+  modify.jsp 정보변경
+  updateForm.jsp 내정보 수정
+  updatePro.jsp 
+  deleteForm.jsp 회원탈퇴
+  deletePro.jsp
+  
+----------------------------------
+게시판 작업
+boardmysql.BoardDTO.java
+boardmysql.BoardDAO.java 
+
+10_MVC에서 action.board 패키지와 boardmysql패키지 가져옴
+10_MVC에서 board폴더 가져옴
+command.properties 주석풀기
+imgs폴더 가져오기
